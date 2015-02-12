@@ -103,7 +103,7 @@ Install some node packages globally
 
 ####Install Python Packages
 
-    pip install —upgrade setuptools
+    pip install --upgrade setuptools
     pip install virtualenv
 
 __Install Virtualenvwrapper__
