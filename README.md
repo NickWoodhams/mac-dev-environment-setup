@@ -71,6 +71,17 @@ Hide/Show iTerm by pressing `CTRL + OPT + CMD + T`
 
     curl -L http://install.ohmyz.sh | sh
 
+####Install Ruby Version Manager
+
+    gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
+    \curl -sSL https://get.rvm.io | bash -s stable --ruby
+    
+Make sure that `[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"` has been added to your ~/.bashrc or ~/.zshrc file. 
+    
+#####Install Compass for compiling Sass files
+
+    gem install compass
+    
 Close iTerm, reopen.
 
     open ~/Applications/iTerm.app
